@@ -35,7 +35,6 @@ ul{
     justify-content: space-evenly;
     height: 100vh;
     background: var(--blue-color);
-    animation: loading 10s linear infinite;
 }
 
 #intro{
@@ -261,6 +260,10 @@ footer{
 footer ul{
     display: flex;
     gap: 20px;
+}
+
+footer ul::before{
+    content: "Contact Me:";
 }
 
 footer a{
